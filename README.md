@@ -219,7 +219,8 @@ REST는  쉽게  URL을 통해 필요한 자원을 표현한다는 특징이 있
 ex) https://openapi.gg.go.kr/RegionMnyFacltStus?KEY=\(KKD_APIKey)&TYPE=json&pSize=\(numberOfData)&REFINE_LOTNO_ADDR=\(key.fetchingKey)
 ```
 
-
+</br>
+</br>
 
 
 발생한-문제와-해결
@@ -231,6 +232,7 @@ __2.1.__ 비동기 처리: 비동기 프로세스 동기로 처리하기
 
 __2.2.__ 캐시 처리: 지도가 움직일 때마다 데이터가 호출되면서 소요되는 시간 줄이기
 
+</br>
 </br>
 
 프로젝트-레벨업
