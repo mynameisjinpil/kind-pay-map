@@ -282,15 +282,23 @@ REST는  쉽게  URL을 통해 필요한 자원을 표현한다는 특징이 있
 ex) https://openapi.gg.go.kr/RegionMnyFacltStus?KEY=\(KKD_APIKey)&TYPE=json&pSize=\(numberOfData)&REFINE_LOTNO_ADDR=\(key.fetchingKey)
 ```
 
-__ 문제점__
+
+
+__문제점__
 
 비동기로 이루어지는 프로세스 두가지가 순서대로 이루어 져야한다. 리버스 지오코딩 다음 그 정보를 바탕으로 가맹점 정보 불러오기. 하지만 그냥 사용한다면? 
+
+
 
 __2.3.2__ 뷰에 데이터 뿌려주기
 
 __네이버 맵스 사용하기__
 
+
+
 __가맹점 정보 핀으로 찍어주기__
+
+
 
 </br>
 </br>
