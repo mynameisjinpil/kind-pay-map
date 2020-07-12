@@ -304,8 +304,9 @@ AF.request(url)
 	.responseDecodable(of: DecodableObject.self)
 ```
 
-+ __.request(url): __  
++ __.request(url):__  
    url을 통해서 서버에 자원을 호출한다. 이 때 주의할 점은 url에 대한 정해진 규칙이 있을텐데 이를 준수하면서 호출해야 한다는 것
+  
 
 + __.validate():__  
    dot(.)으로 이어지는 함수의 chaining은 이전 dot에 대한 함수의 반환값에 대해 실행한다고 생각하면된다. 그럼 request한 값이 유효한 값인가? 검사해주는 단계이다.
