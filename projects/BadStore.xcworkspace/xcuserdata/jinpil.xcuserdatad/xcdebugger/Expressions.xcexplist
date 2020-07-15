@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MapViewController.mapViewCameraIdle(_:):MapViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MapViewController.setPin():MapViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stores">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MapViewController.mapView(_:cameraWillChangeByReason:animated:):MapViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentMarkers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in MapViewController.doReverseGeocoding(lat:lng:completionHandler:):MapViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MapViewController.fetchStores(key:):MapViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "map">
+            </PersistentString>
+            <PersistentString
+               value = "self.storeObject">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MapViewController.findStoreFollowCameraCoord(location:):MapViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MapViewController.doReverseGeocoding(lat:lng:completionHandler:):MapViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MapViewController.setMarkers():MapViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MapViewController.setCameraMarker(location:):MapViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "location">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MapViewController.doReverseGeocoding(lat:lng:completionHandler:):MapViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentTown">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MapViewController.killAllRequest(completion:):MapViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "num">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MapViewController.moveToCurrentLocation(_:):MapViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MapViewController.resetMarkers(markers:):MapViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MapViewController.stores.setter:MapViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Address.setAddress(region:landNumber:):Address.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MapViewController.fetchStores(code:address:):MapViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "url">
+            </PersistentString>
+            <PersistentString
+               value = "urlString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
