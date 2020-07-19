@@ -23,6 +23,7 @@
 + 프로젝트 구체화
 
   
+
 [2. Coding](#Coding)
 
 + Model
@@ -178,7 +179,30 @@ _개발환경_
  ### 2.1. Model
 
 ### Codable
-updating...
+Codable은 JSON같은 외부표현으로 만들어진 Data 그 자체를 Swift에서 객체로 사용하기 위한 데이터를 변환하는 프로토콜이다. 외부표현을 Swift객체로 바꿀 뿐만 아니라 Swift객체를 외부표현으로 바꿔주기도 하면서 Encode & Decode의 방법을 가지고있다. 실제로 Swift의 Decodable과 Encodable프로토콜을 합쳐서 만든것이다.
+
+그럼 간단한 Struct를 만들어보면서 알아보자. 간단한 Person 구조에 Codable을 채택해보자. 
+
+```
+struct Person: Codable {
+	var age: Int
+	var name: String
+}
+```
+
+이렇게 만든 Swift의 Struct를 외부 네트워크에 JSON형식으로 보내고싶다. 그러면  JSON.age = Person.age 같은 방식으로 일일히 넣어줄수도 있지만.
+
+귀찮다... 그리고 인스턴스화 된 Person 객체의 데이터 변화에 대응하기도 어렵고, 무엇보다 변수가 많아진다면? 귀찮아진다. 때문에 우리는 Codable로 우하하게 JSON으로 encode하고자 하는것이다. 다음과 같은 방식으로 JSON으로 encode할 수 있다.
+
+```
+let encoder = JSONEncoder()
+let person = Person(age: 28, name: "pil")
+let jsonPersonData = try? encoder.encode(person)
+```
+
+
+
+ 
 
 </br>
 </br>
